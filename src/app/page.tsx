@@ -1,3 +1,5 @@
+"use client"
+
 import { CustomModal } from "@/components/customModal";
 
 const Main = () => {

@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { useState } from "react";
 import cmstyle from "../styles/customModal.module.css"

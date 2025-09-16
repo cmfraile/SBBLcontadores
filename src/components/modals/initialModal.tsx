@@ -1,16 +1,15 @@
-"use client"
+'use client'
 
 import { useState } from "react";
-import cmstyle from "../styles/customModal.module.css"
+import style from "@/styles/customModal.module.css"
 
-export const CustomModal = ({msg}:{msg:string}) => {
+export const InitialModal = ({msg}:{msg:string}) => {
 
     const [appear,setAppear] = useState(true);
 
-
     return(
         (appear) && 
-        <div className={cmstyle.customModal}>
+        <div className={style.customModal}>
             <p>{msg}</p>
             <button type="button" 
                     className="btn btn-primary p-3"

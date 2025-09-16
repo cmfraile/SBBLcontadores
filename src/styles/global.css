@@ -1,5 +1,30 @@
-.container{
-    height: 100dvh;
-    width: 100dvw;
-    background-color: blue !important;
+.maincontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
+.led{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 50dvh;
+}
+
+.led > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    font-size: 10rem;
+    font-weight: 700;
+    transform: rotate(90deg);
+}
+
+.bled {background-color: lightblue;}
+.xled {background-color: lightcoral;}

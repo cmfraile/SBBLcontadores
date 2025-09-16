@@ -1,6 +1,13 @@
+import { CustomModal } from "@/components/customModal";
+
 const Main = () => {
 
-  return <h1>Main Works</h1>
+  return (
+    <div className={`container ${CustomModal}`}><div className="row">
+      <CustomModal msg="Desactiva el giro automático de tu dispositivo para mayor comodidad."/>
+
+    </div></div>
+  )
 
 };
 

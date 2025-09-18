@@ -4,7 +4,7 @@ import style from "@/styles/customModal.module.css"
 
 export const InitialModal = ({modal,disableModal}:{modal:boolean,disableModal:() => void}) => {
 
-    const msg = `Desactiva el giro automático para mayor comodidad. Pulse sobre los números para sumarles 1. Puedes reiniciar el contador a partir de que 1 tenga o supere los 4 puntos.`
+    const msg = `Desactiva el giro automático para mayor comodidad. Pulse sobre los números para sumarles 1. Puedes reiniciar el contador a partir de que alguien logre los 4 puntos.`
 
     return(
         (modal) && 

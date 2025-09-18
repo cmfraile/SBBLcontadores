@@ -20,7 +20,7 @@ const Main = () => {
       <div className="led xled">
       { (!modal) && <p onClick={plusx}>{bx.x}</p> }
       </div>
-      <Logo imgsrc={"sbbl.webp"} />
+      { (!modal) && <Logo imgsrc={"sbbl.webp"} /> }
     </div>
   )
 

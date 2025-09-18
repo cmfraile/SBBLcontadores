@@ -4,14 +4,17 @@
     align-items: center;
     position: fixed;
     transform: rotate(90deg);
-    border-radius: 100px;
-    height: 80px;
-    width: 80px;
     z-index: 10; /* Asegura que esté por encima de otros elementos */
 }
 
 .resetButton > p {
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: rgb(255, 255, 255,0.5);
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 50px;
 }

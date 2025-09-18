@@ -1,19 +1,18 @@
 'use client'
 
-import { useState } from "react";
 import style from "@/styles/customModal.module.css"
 
-export const InitialModal = ({msg}:{msg:string}) => {
+export const InitialModal = ({modal,disableModal}:{modal:boolean,disableModal:() => void}) => {
 
-    const [appear,setAppear] = useState(true);
+    const msg = `Desactiva el giro automático para mayor comodidad. Pulse sobre los números para sumarles 1. Puedes reiniciar el contador a partir de que 1 tenga o supere los 4 puntos.`
 
     return(
-        (appear) && 
+        (modal) && 
         <div className={style.customModal}>
             <p>{msg}</p>
             <button type="button" 
-                    className="btn btn-primary p-3"
-                    onClick={() => setAppear(false)}
+                    className="btn btn-primary p-3 my-3"
+                    onClick={disableModal}
                     >De acuerdo</button>
         </div>
     )

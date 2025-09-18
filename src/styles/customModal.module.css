@@ -10,7 +10,7 @@
     transform: translate(-50%, -50%);
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
     background-color: white;
-    padding: 2rem;
+    padding: 2.5rem;
     border-radius: 8px;
     width: 80dvw !important;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);

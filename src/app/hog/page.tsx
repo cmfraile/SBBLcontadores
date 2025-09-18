@@ -1,5 +1,5 @@
 'use client'
-import '@styles/global.css'
+import '@/styles/global.css'
 import { InitialModal } from "@/components/modals/initialModal";
 import { ResetButton } from '@/components/ResetButton';
 import { basicPointsHook } from "@/hooks/basicPoints.hook";

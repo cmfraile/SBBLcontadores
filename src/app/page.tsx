@@ -3,6 +3,7 @@ import '../styles/global.css'
 import { InitialModal } from "@/components/modals/initialModal";
 import { ResetButton } from '@/components/ResetButton';
 import { basicPointsHook } from "@/hooks/basicPoints.hook";
+import { Logo } from '@/components/Logo';
 
 const Main = () => {
 
@@ -19,6 +20,7 @@ const Main = () => {
       <div className="led xled">
       { (!modal) && <p onClick={plusx}>{bx.x}</p> }
       </div>
+      <Logo imgsrc={"sbbl.webp"} />
     </div>
   )
 
